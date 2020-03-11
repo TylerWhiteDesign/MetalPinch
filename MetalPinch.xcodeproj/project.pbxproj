@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		E41ABECB24194E74001B79D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41ABECA24194E74001B79D7 /* AppDelegate.swift */; };
-		E41ABECD24194E74001B79D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41ABECC24194E74001B79D7 /* SceneDelegate.swift */; };
 		E41ABECF24194E74001B79D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41ABECE24194E74001B79D7 /* ViewController.swift */; };
 		E41ABED224194E74001B79D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41ABED024194E74001B79D7 /* Main.storyboard */; };
 		E41ABED424194E76001B79D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41ABED324194E76001B79D7 /* Assets.xcassets */; };
 		E41ABED724194E76001B79D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41ABED524194E76001B79D7 /* LaunchScreen.storyboard */; };
+		E41ABEDF24194EA4001B79D7 /* TouchMetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41ABEDE24194EA4001B79D7 /* TouchMetalView.swift */; };
+		E41ABEE224194F67001B79D7 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41ABEE124194F67001B79D7 /* Renderer.swift */; };
+		E41ABEE424194FC1001B79D7 /* MathLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41ABEE324194FC1001B79D7 /* MathLibrary.swift */; };
+		E41ABEE72419507F001B79D7 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = E41ABEE62419507F001B79D7 /* Shaders.metal */; };
+		E41ABEE924195158001B79D7 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41ABEE824195158001B79D7 /* Scene.swift */; };
+		E41ABEEB241953F0001B79D7 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41ABEEA241953F0001B79D7 /* Plane.swift */; };
+		E41ABEED2419541C001B79D7 /* Renderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41ABEEC2419541C001B79D7 /* Renderable.swift */; };
+		E41ABEF1241963EC001B79D7 /* fruit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E41ABEF0241963EC001B79D7 /* fruit.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E41ABEC724194E74001B79D7 /* MetalPinch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalPinch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41ABECA24194E74001B79D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E41ABECC24194E74001B79D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E41ABECE24194E74001B79D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E41ABED124194E74001B79D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E41ABED324194E76001B79D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E41ABED624194E76001B79D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E41ABED824194E76001B79D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E41ABEDE24194EA4001B79D7 /* TouchMetalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchMetalView.swift; sourceTree = "<group>"; };
+		E41ABEE024194F67001B79D7 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		E41ABEE124194F67001B79D7 /* Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		E41ABEE324194FC1001B79D7 /* MathLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathLibrary.swift; sourceTree = "<group>"; };
+		E41ABEE524194FF1001B79D7 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		E41ABEE62419507F001B79D7 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		E41ABEE824195158001B79D7 /* Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		E41ABEEA241953F0001B79D7 /* Plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		E41ABEEC2419541C001B79D7 /* Renderable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderable.swift; sourceTree = "<group>"; };
+		E41ABEF0241963EC001B79D7 /* fruit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fruit.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +73,18 @@
 			isa = PBXGroup;
 			children = (
 				E41ABECA24194E74001B79D7 /* AppDelegate.swift */,
-				E41ABECC24194E74001B79D7 /* SceneDelegate.swift */,
 				E41ABECE24194E74001B79D7 /* ViewController.swift */,
+				E41ABEDE24194EA4001B79D7 /* TouchMetalView.swift */,
+				E41ABEE124194F67001B79D7 /* Renderer.swift */,
+				E41ABEE824195158001B79D7 /* Scene.swift */,
+				E41ABEEC2419541C001B79D7 /* Renderable.swift */,
+				E41ABEEA241953F0001B79D7 /* Plane.swift */,
+				E41ABEE324194FC1001B79D7 /* MathLibrary.swift */,
+				E41ABEE62419507F001B79D7 /* Shaders.metal */,
+				E41ABEE524194FF1001B79D7 /* Bridging-Header.h */,
+				E41ABEE024194F67001B79D7 /* Common.h */,
 				E41ABED024194E74001B79D7 /* Main.storyboard */,
+				E41ABEF0241963EC001B79D7 /* fruit.jpg */,
 				E41ABED324194E76001B79D7 /* Assets.xcassets */,
 				E41ABED524194E76001B79D7 /* LaunchScreen.storyboard */,
 				E41ABED824194E76001B79D7 /* Info.plist */,
@@ -127,6 +152,7 @@
 			files = (
 				E41ABED724194E76001B79D7 /* LaunchScreen.storyboard in Resources */,
 				E41ABED424194E76001B79D7 /* Assets.xcassets in Resources */,
+				E41ABEF1241963EC001B79D7 /* fruit.jpg in Resources */,
 				E41ABED224194E74001B79D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E41ABEE224194F67001B79D7 /* Renderer.swift in Sources */,
+				E41ABEDF24194EA4001B79D7 /* TouchMetalView.swift in Sources */,
 				E41ABECF24194E74001B79D7 /* ViewController.swift in Sources */,
+				E41ABEED2419541C001B79D7 /* Renderable.swift in Sources */,
+				E41ABEE72419507F001B79D7 /* Shaders.metal in Sources */,
+				E41ABEE924195158001B79D7 /* Scene.swift in Sources */,
 				E41ABECB24194E74001B79D7 /* AppDelegate.swift in Sources */,
-				E41ABECD24194E74001B79D7 /* SceneDelegate.swift in Sources */,
+				E41ABEEB241953F0001B79D7 /* Plane.swift in Sources */,
+				E41ABEE424194FC1001B79D7 /* MathLibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +254,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "MetalPinch/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -275,6 +308,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "MetalPinch/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};

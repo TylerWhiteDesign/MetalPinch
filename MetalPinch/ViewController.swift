@@ -6,11 +6,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var renderer: Renderer!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        renderer = Renderer(metalView: view as! TouchMetalView)
+        renderer.scene = Scene(withRenderer: renderer)
     }
-
-
 }
 
