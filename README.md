@@ -1,5 +1,5 @@
 # MetalPinch
-A demo on how to use UIGestureRecognizers to pan and zoom in Metal.
+A demo on how to use UIGestureRecognizers to pan and zoom in [Metal](https://developer.apple.com/metal/).
 
 ![Metal Pinch animation demo](https://media.giphy.com/media/dWHDwoMrDobP40jpDd/giphy.gif)
 
